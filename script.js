@@ -12,7 +12,7 @@ function login(){
     }
     else{
         localStorage.clear();
-        alert("Logged in as ");
+        alert("Logged in as Username");
     }
 }
 btn.addEventListener("click",()=>{
@@ -24,12 +24,10 @@ btn.addEventListener("click",()=>{
     else{
         login();
     }
-    name.value="";
-    pass.value="";
    }	
 });
 function next(){
 existbtn.addEventListener("click",()=>{
     if (localStorage.getItem("Name")==name.value && localStorage.getItem("Password")==pass.value) {
-alert("Logged in as ");}
+alert("Logged in as existing user");}
 });}
