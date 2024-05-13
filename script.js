@@ -12,7 +12,7 @@ function login(){
     }
     else{
         localStorage.clear();
-        alert("Logged in as Username");
+        alert("Logged in as username");
     }
 }
 btn.addEventListener("click",()=>{
